@@ -1,0 +1,7 @@
+{
+    "name": "com.example.native_host",
+    "description": "Native messaging host for Network Info Extension",
+    "path": "native_host.exe",
+    "type": "stdio",
+    "allowed_origins": ["chrome-extension://YOUR_EXTENSION_ID/"]
+  }

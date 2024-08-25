@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Network Info</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #network-info{
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Network Information</h1>
+    
+    <div id="network-info">
+        <p><strong>Connection Type:</strong> <span id="connection-type"></span></p>
+        <p><strong>Effective Connection Type:</strong> <span id="effective-type"></span></p>
+        <p><strong>Downlink:</strong> <span id="downlink"></span> Mbps</p>
+        <p><strong>RTT:</strong> <span id="rtt"></span> ms</p>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
